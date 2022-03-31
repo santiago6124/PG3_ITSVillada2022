@@ -1,4 +1,5 @@
-ListaDeNumeros = ["8", "12" , "9" , "45"]
+ListaDeNumeros = ["8", "12", "9", "45"]
+
 
 def funcion(ListaDeNumeros):
     print(ListaDeNumeros)
