@@ -7,9 +7,11 @@ def pintar_triangulo(alto, char):
     for i in range(alto):
         print(" " * (alto - i - 1) + (char + " ") * (i + 1))
 
+
 def pintar_triangulo_invertido(alto, char):
     for i in range(alto):
-        print(" " *(i + 1) + (char + " ") * (alto - i) )
+        print(" " * (i + 1) + (char + " ") * (alto - i))
+
 
 opcion = int(
     input(
