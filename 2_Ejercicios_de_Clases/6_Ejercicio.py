@@ -7,10 +7,10 @@ class Familia:
         ).split()
 
     def __str__(self):
-        cadena = self.nombrep + "," + self.nombrem
+        string = self.nombrep + "," + self.nombrem
         for i in self.lista:
-            cadena = cadena + "," + i
-        return cadena
+            string = string + "," + i
+        return string
 
 
 familia1 = Familia()
