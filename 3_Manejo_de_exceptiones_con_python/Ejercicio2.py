@@ -4,7 +4,7 @@ while True:
         num2=int(input("Ingrese denominador: "))
         div=num1/num2
         print("El resultado de la división es", div)
-        ans=input("Si no desea seguir sumando ingrese [n], si quiere seguir ingrese cualquier otra letra: ")
+        ans=input("Si no desea seguir dividiendo ingrese [n], si quiere seguir ingrese cualquier otra letra: ")
         if ans=="n":
             break  
     except ZeroDivisionError:
